@@ -1,0 +1,19 @@
+window {
+    font-size: 20px;
+    border-radius: 15px;
+
+    background-color: rgba(50, 50, 50, 0.8);
+
+    color: white;
+}
+
+#input {
+    background-color: rgba(25, 25, 25, 1);
+    border-radius: 15px;
+    
+    color: white;
+}
+
+#inner-box {
+    margin: 10px;
+}

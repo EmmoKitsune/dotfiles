@@ -8,10 +8,18 @@
     "modules-right": ["pulseaudio", "backlight", "battery", "clock", "tray", "custom/lock", "custom/power"],
     "hyprland/workspaces": {
          "disable-scroll": true,
-         "sort-by-name": true,
+         "sort-by-id": true,
+         "show-empty": true,
+         "all-outputs": true,
          "format": " {icon} ",
          "format-icons": {
-             "default": "",
+            "default": "",
+            "3": "",
+            "4": "",
+            "5": ""
+         },
+         "persistent-workspaces":{
+            "*" : 5,
          },
      },
     "tray": {
@@ -30,8 +38,8 @@
     "clock": {
         "timezone": "America/Argentina/Buenos_Aires",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "   {:%d/%m/%Y}",
-        "format": "  {:%H:%M}"
+        "format-alt": " {:%d/%m/%Y}",
+        "format": " {:%H:%M}"
     },
     "backlight": {
         "device": "intel_backlight",
@@ -51,7 +59,7 @@
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{icon}  {volume}%",
+        "format": "{icon} {volume}%",
         "format-muted": "",
         "format-icons": {
             "default": ["", "", " "]

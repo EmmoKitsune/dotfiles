@@ -1,19 +1,39 @@
+#text {
+    color: #cba6f7;
+}
 window {
     font-size: 20px;
     border-radius: 15px;
 
-    background-color: rgba(50, 50, 50, 0.8);
+    color: #cba6f7;
+
+    background-color: #313244;
 
     color: white;
 }
 
 #input {
-    background-color: rgba(25, 25, 25, 1);
-    border-radius: 15px;
-    
-    color: white;
+    background-color: #313244;
+    border: 0px solid white;
+    margin-top: 10px;
+
+    font-size: 25px;
 }
 
 #inner-box {
     margin: 10px;
+}
+
+#entry:selected {
+    background-color: #5294e2;
+    border-radius: 10px;
+    border: 0px solid white;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+#entry {
+    border-radius: 10px;
+    border: 0px solid white;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
